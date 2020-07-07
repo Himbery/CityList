@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_main">15dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="text_size_main">16sp</dimen>
+<!--    CardView-->
+    <dimen name="margin_top_c">5dp</dimen>
+    <dimen name="margin">10dp</dimen>
+
+    <dimen name="text_size_detail">18sp</dimen>
+    <dimen name="margin_detail">10dp</dimen>
+</resources>

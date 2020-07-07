@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_height="wrap_content"
+        android:id="@+id/viewPager"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_width="match_parent"
+        android:layout_above="@id/title">
+    </androidx.viewpager.widget.ViewPager>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textSize="@dimen/text_size_detail"
+        android:layout_centerInParent="true"
+        android:id="@+id/title"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_detail"
+        android:layout_marginStart="@dimen/margin_detail"
+        android:layout_below="@id/title"
+        android:layout_marginTop="5dp"
+        android:id="@+id/address"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="@dimen/text_size_detail"
+        android:layout_marginStart="@dimen/margin_detail"
+        android:layout_below="@id/address"
+        android:layout_marginTop="5dp"
+        android:id="@+id/price_day"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="@dimen/text_size_detail"
+        android:layout_marginStart="@dimen/margin_detail"
+        android:layout_below="@id/price_day"
+        android:layout_marginTop="5dp"
+        android:id="@+id/price_night"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="@dimen/text_size_detail"
+        android:layout_marginStart="@dimen/margin_detail"
+        android:layout_below="@id/price_night"
+        android:layout_marginTop="5dp"
+        android:id="@+id/price_month"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="@dimen/text_size_detail"
+        android:layout_marginStart="@dimen/margin_detail"
+        android:layout_below="@id/price_month"
+        android:layout_marginTop="5dp"
+        android:id="@+id/description"/>
+
+
+
+</RelativeLayout>
